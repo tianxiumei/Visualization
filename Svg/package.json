@@ -1,5 +1,5 @@
 {
-  "name": "SVG",
+  "name": "Canvas",
   "version": "1.0.0",
   "description": "",
   "main": "./src/index.tsx",
@@ -14,11 +14,13 @@
   "author": "txm",
   "license": "ISC",
   "devDependencies": {
+    "@types/d3": "^6.2.0",
     "@types/react": "^16.9.2",
     "@types/react-dom": "^16.8.4",
     "@types/source-map": "^0.5.2",
     "clean-webpack-plugin": "^3.0.0",
     "html-webpack-plugin": "^3.2.0",
+    "svg-react-loader": "^0.4.6",
     "ts-loader": "^6.0.2",
     "typescript": "^3.5.1",
     "webpack": "^4.39.2",
@@ -27,7 +29,12 @@
     "webpack-merge": "^4.2.1"
   },
   "dependencies": {
+    "css-loader": "^5.0.1",
+    "d3": "^6.3.1",
+    "less": "^4.0.0",
+    "less-loader": "^7.1.0",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "style-loader": "^2.0.0"
   }
 }
